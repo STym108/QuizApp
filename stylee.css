@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-color: #9AA6B2;
+
+}
+.box{
+    position: relative;
+    height: 450px;
+    width: 500px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+    margin-top: 100px;
+    border: 3px  black;
+    border-style: none;
+    border-radius: 40px;
+    background-color: #BCCCDC;
+}
+.questionpart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+   font-weight: bold;
+
+}
+.options li{
+    border-style: solid;
+    border-radius: 5px;
+    width: 440px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.options li:hover{
+    background-color: rgb(151, 151, 243);
+}
+
+.nextbutton{
+margin-right: -370px;
+width: 50px;
+border-radius: 4px;
+background-color:lightpink;
+font-weight:400;
+font-size: large;
+}
+.nextbutton:hover{
+    background-color: rgb(185, 185, 235);
+}
+
+.top {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Push items to opposite ends */
+    align-items: center; /* Align items vertically at the center */
+    padding: 10px; /* Optional: Add some padding for spacing */
+    width: 470px;
+}
+
+.quizapp {
+    margin: 0; /* Reset default margin */
+    font-weight: bolder;
+    font-size: larger;}
+
+.timer {
+margin-right: -260px;
+font-weight: bolder;
+font-size: larger;
+}
+.samay{
+    font-weight: bolder;
+    font-size: larger;
+}
