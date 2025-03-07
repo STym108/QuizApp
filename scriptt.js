@@ -3,6 +3,7 @@ const qs = [
         Questions: "2. What is the time complexity of binary search in a sorted array?",
         Options: ["O(n)", "O(log n)", "O(1)", "O(n^2)"],
     },
+    // jkgnkgf
     {
         Questions: "3. Which sorting algorithm is best for nearly sorted data?",
         Options: ["Merge Sort", "Quick sort", "Bubble sort", "Insertion Sort"],
